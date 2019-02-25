@@ -1,11 +1,11 @@
 /**
 * ClickUp.cfc
 * Copyright 2019  Matthew J. Clemente, John Berquist
-* Licensed under MIT (https://mit-license.org)
+* Licensed under MIT (https://github.com/mjclemente/clickup.cfc/blob/master/LICENSE)
 */
 component displayname="ClickUp.cfc"  {
 
-  variables._clickupcfc_version = '0.0.0';
+  variables._clickupcfc_version = '1.0.0';
 
   public any function init(
     string apiKey = '',
