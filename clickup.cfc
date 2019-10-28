@@ -249,8 +249,6 @@ component displayname="ClickUp.cfc"  {
       ? ( '?' & parseQueryParams( queryParams, false ) )
       : '' );
 
-    var requestHeaders = parseHeaders( headers );
-
     cfhttp( url = fullPath, method = httpMethod,  result = 'result' ) {
 
       if ( isJsonPayload( headers ) ) {
