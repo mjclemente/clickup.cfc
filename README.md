@@ -1,6 +1,8 @@
 # ClickUp.cfc
 A CFML wrapper for the [ClickUp API](https://clickup.com/api), which is currently in beta.
 
+**Since this project was released, ClickUp has released v2 of their API. Like v1, the ClickUp API 2.0 is still in beta. This wrapper was written for v1 of the API and has not been updated for ClickUp 2.0 yet.**
+
 *Feel free to use the issue tracker to report bugs or suggest improvements!*
 
 ### Acknowledgements
@@ -9,11 +11,14 @@ This project borrows from the API client frameworks built by [jcberquist](https:
 
 ## Table of Contents
 
-- [Quick Start](#quick-start)
-- [`ClickUp.cfc` Reference Manual](#reference-manual)
-- [Reference Manual for `helpers.task`](#reference-manual-for-helperstask)
-- [Questions](#questions)
-- [Contributing](#contributing)
+- [ClickUp.cfc](#clickupcfc)
+    - [Acknowledgements](#acknowledgements)
+  - [Table of Contents](#table-of-contents)
+  - [Quick Start](#quick-start)
+  - [Reference Manual](#reference-manual)
+  - [Reference Manual for `helpers.task`](#reference-manual-for-helperstask)
+  - [Questions](#questions)
+  - [Contributing](#contributing)
 
 ## Quick Start
 The following is a minimal example of creating a task, using the `task` helper object, without a dependency injection framework. If using DI/1 or WireBox, this would be even simpler.
