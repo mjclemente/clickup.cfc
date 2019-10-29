@@ -29,9 +29,7 @@
     "dependencies":{},
     "devDependencies":{},
     "installPaths":{},
-    "scripts":{
-      "postVersion": "package set location='mjclemente/clickup.cfc#v`package version`'"
-    },
+    "scripts":{},
     "ignore":[
         "**/.*",
         "test",
