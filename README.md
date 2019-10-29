@@ -11,11 +11,8 @@ This project borrows from the API client frameworks built by [jcberquist](https:
 
 ## Table of Contents
 
-- [ClickUp.cfc](#clickupcfc)
-    - [Acknowledgements](#acknowledgements)
-  - [Table of Contents](#table-of-contents)
   - [Quick Start](#quick-start)
-  - [Reference Manual](#reference-manual)
+  - [`ClickUp.cfc` Reference Manual](#reference-manual)
   - [Reference Manual for `helpers.task`](#reference-manual-for-helperstask)
   - [Questions](#questions)
   - [Contributing](#contributing)
