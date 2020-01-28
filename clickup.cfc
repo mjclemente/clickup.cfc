@@ -5,7 +5,7 @@
 */
 component displayname="ClickUp.cfc"  {
 
-  variables._clickupcfc_version = '1.0.0';
+  variables._clickupcfc_version = '1.0.2';
 
   public any function init(
     string apiKey = '',
