@@ -1,6 +1,6 @@
 /**
 * ClickUp.cfc
-* Copyright 2019  Matthew J. Clemente, John Berquist
+* Copyright 2019-2020  Matthew J. Clemente, John Berquist
 * Licensed under MIT (https://github.com/mjclemente/clickup.cfc/blob/master/LICENSE)
 */
 component displayname="ClickUp.cfc"  {
